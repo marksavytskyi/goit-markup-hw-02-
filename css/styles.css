@@ -24,12 +24,16 @@ body {
     list-style: none;
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0px auto;
+
 }
 /* Верхняя линия */
 
 /* Logo */
+header {
+    border: 1px solid #ECECEC;
+}
 .logo {
     color: var(--accent-black-color);
     font-family: Raleway, sans-serif;
@@ -163,9 +167,9 @@ h1 {
     font-size: 14px;
     line-height: 1.71;
 }
-.feature {
-    margin-top: 93px;
-    margin-bottom: 93px;
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .feature .item + .item {
     margin-left: 30px;
@@ -261,7 +265,6 @@ footer .logo {
     list-style: none;
     padding-left: 0;
     justify-content: center;
-    margin-top: 93px;
     margin-bottom: 56px;
 }
 .filter-button {
@@ -296,7 +299,6 @@ footer .logo {
 
     list-style: none;
     margin-top: 0;
-    margin-bottom: 93px;
     padding-left: 0;
 }
 .portfolio-list .item:nth-child(3n) {

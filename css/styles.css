@@ -197,15 +197,11 @@ h1 {
 }
 
 /* Наша команда */
-.team {
-    padding-top: 0px;
-}
 .team-list .item + .item {
    margin-left: 30px;
 }
 .team-title {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 
     font-weight: 500;
     font-size: 16px;
@@ -220,10 +216,9 @@ h1 {
     border-radius: 0px 0px 4px 4px;
 }
 .team .description {
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 
@@ -314,6 +309,7 @@ footer {
     padding: 20px 24px;
 }
 .portfolio-title {
+    margin-top: 0;
     margin-bottom: 4px;
 
     font-weight: 700;
